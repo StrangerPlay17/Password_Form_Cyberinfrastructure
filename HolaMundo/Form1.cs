@@ -45,7 +45,7 @@ namespace HolaMundo
             if (!Regex.IsMatch(password, pattern))
             {
                 // Muestra un mensaje indicando los requisitos que debe cumplir
-  
+
                 MessageBox.Show(
                     "La contraseña debe contener al menos una letra mayúscula, " +
                     "una letra minúscula, un número y un símbolo.",
@@ -53,7 +53,7 @@ namespace HolaMundo
                 );
 
                 // Regresa de la ejecución del método para no continuar
-    
+
                 return;
             }
 
@@ -80,6 +80,11 @@ namespace HolaMundo
 
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_confirm_password_Click(object sender, EventArgs e)
         {
 
         }
